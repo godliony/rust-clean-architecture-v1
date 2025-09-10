@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo install:*)",
+      "Bash(rustc --version)",
+      "Bash(cargo --version)",
+      "Bash(rustup toolchain:*)",
+      "Bash(cargo:*)",
+      "Bash(where:*)",
+      "Bash(echo $PATH)",
+      "Bash(powershell.exe:*)",
+      "WebFetch(domain:github.com)",
+      "Bash(rustup:*)",
+      "Bash(.vs_buildtools.exe --quiet --wait --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended)",
+      "Bash(pacman:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
