@@ -25,7 +25,7 @@ pub struct Setting {
 impl Setting {
     pub fn new() -> Result<Arc<Setting>, config::ConfigError> {
         let settings = Config::builder()
-            .add_source(config::File::with_name("Setting"))
+            .add_source(config::File::with_name("Setting")) //ไฟล์ ../Setting.toml
             .build()
             .unwrap();
 

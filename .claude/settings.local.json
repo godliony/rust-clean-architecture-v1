@@ -12,7 +12,8 @@
       "WebFetch(domain:github.com)",
       "Bash(rustup:*)",
       "Bash(.vs_buildtools.exe --quiet --wait --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended)",
-      "Bash(pacman:*)"
+      "Bash(pacman:*)",
+      "Bash(cp:*)"
     ],
     "deny": [],
     "ask": []
